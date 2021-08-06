@@ -36,9 +36,9 @@
 	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="org.postgresql.Driver"/>
 		<property name="url" 
-			value="jdbc:postgresql://datasempai.cl65bcdmxgon.us-east-1.rds.amazonaws.com/project2db"/>
-		<property name="username" value="datasempai"/>
-		<property name="password" value="p4ssw0rd"/>
+			value="jdbc:postgresql://" + ${TRAINING_DB_ENDPOINT} + "project2db"/>
+		<property name="username" value=${TRAINING_DB_USERNAME}/>
+		<property name="password" value=${TRAINING_DB_PASSWORD}/>
 	</bean>
 	
 	
