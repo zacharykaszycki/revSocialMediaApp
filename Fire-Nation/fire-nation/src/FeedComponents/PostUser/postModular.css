@@ -1,0 +1,78 @@
+.postMod{
+  width: 75%;
+  height: 150px;
+  border-radius: 25px;
+  -webkit-box-shadow: 7px 9px 5px 6px rgba(0, 0, 0, 0.5);
+  box-shadow: 7px 9px 5px 6px rgba(7, 0, 0, 0.5);
+}
+
+.postWrapMod{
+    padding: 10px;
+}
+
+.elementCenter{
+display: flex;
+align-items: center;
+}
+
+.profileImg{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.postUser{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 5px;
+}
+
+.postMates{
+    border: none;
+    width: 80%;
+}
+
+.postMates:focus{
+    outline: none;
+    background: maroon;
+    color: white;
+}
+
+.postCenter{
+    margin: 20px;
+}
+
+.shareBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shareOptions{
+    display: flex;
+}
+
+.shareOption{
+    display:flex;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.shareIcon{
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.shareButton{
+    border: none;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: orangered;
+    font-weight: 500;
+    margin-right: 20px;
+    cursor: pointer;
+    color: white;
+}

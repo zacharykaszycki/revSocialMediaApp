@@ -1,0 +1,12 @@
+.feed{
+    flex: 5;
+    height: calc(100vh - 60px);
+    Background-color: rgb(66, 64, 64);
+    color: white;
+    opacity: 0.7;
+    width: 30em;
+}
+
+.feedWrapper{
+    padding: 10px;
+}

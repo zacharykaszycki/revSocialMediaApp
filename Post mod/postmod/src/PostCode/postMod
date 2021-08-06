@@ -1,0 +1,20 @@
+{/**Insert*/}
+                    
+
+                    {/**Tags*/}
+                    <div className="shareOption">
+                        <Label htmlColor="green" className="shareIcon"/>
+                        <span className="shareOptionText">Photo or Video</span>
+                    </div>
+
+                    {/**Location*/}
+                    <div className="shareOption">
+                        <Label htmlColor="green" className="shareIcon"/>
+                        <span className="shareOptionText">Photo or Video</span>
+                    </div>
+
+                    {/**Emojis*/}
+                    <div className="shareOption">
+                        <Label htmlColor="green" className="shareIcon"/>
+                        <span className="shareOptionText">Photo or Video</span>
+                    </div>
